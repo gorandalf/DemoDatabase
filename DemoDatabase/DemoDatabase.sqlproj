@@ -121,11 +121,19 @@
     <Folder Include="Properties" />
     <Folder Include="Tables\" />
     <Folder Include="Stored Procedures\" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Users.sql" />
     <Build Include="Tables\Countries.sql" />
     <Build Include="Tables\Phones.sql" />
     <Build Include="Stored Procedures\ListUsers.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snapshots\DemoDatabase_20161207_16-12-14.dacpac" />
+    <None Include="DemoDatabase.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DemoDatabase.refactorlog" />
   </ItemGroup>
 </Project>

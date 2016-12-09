@@ -5,6 +5,6 @@
     [BirthDay]    DATETIME      NULL,
     [CountryCode] CHAR (2)      NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC),
-    CONSTRAINT [FK_Users_Countries] FOREIGN KEY ([CountryCode]) REFERENCES [dbo].[Countries] ([Code])
+    CONSTRAINT [FK_Users_Countries] FOREIGN KEY ([CountryCode]) REFERENCES [dbo].[Countries] ([CountryCode])
 );
 
