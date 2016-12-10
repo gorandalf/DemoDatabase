@@ -96,6 +96,8 @@
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <SqlCodeAnalysisRules>
+    </SqlCodeAnalysisRules>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -128,6 +130,8 @@
     <Build Include="Tables\Countries.sql" />
     <Build Include="Tables\Phones.sql" />
     <Build Include="Stored Procedures\ListUsers.sql" />
+    <Build Include="Stored Procedures\ListCountries.sql" />
+    <Build Include="Stored Procedures\sp_testSP.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\DemoDatabase_20161207_16-12-14.dacpac" />

@@ -2,9 +2,9 @@
 	
 AS
 	SELECT 
-		ID,
-		FNAME,
-		LNAME,
+		[dbo].[users].[Id],
+		[dbo].[users].[FName],
+		[dbo].[users].[LName],
 		BirthDay.GetTime(), 
 		BirthDay.GetTicksPast(0), 
 		BirthDay.GetMicrosPast(0)

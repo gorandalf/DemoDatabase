@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[sp_testSP]
+AS
+	SELECT *
+	FROM Phones;
+
+RETURN 0
